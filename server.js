@@ -15,5 +15,5 @@ app.set('views', config.root + '/server/views');
 // Run our router module to prepare for incoming requests
 require(config.root + '/server/routes')(app);
 
-app.listen(3000);
-console.log('NodePOS is listening on port', 3000);
+app.listen(config.port);
+console.log('NodePOS is listening on port', config.port);
