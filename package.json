@@ -1,0 +1,31 @@
+{
+    "name": "nodePOS",
+    "version": "0.0.0",
+    "description": "A Point Of Sale system built on Node.js.",
+    "author": "Dev3",
+
+    "contributors": [{
+        "name": "Tal Ben-Ari",
+        "email": "talbenari1@gmail.com"
+    }, {
+        "name": "Michael Edlinger",
+        "email": "mkeedlinger@gmail.com"
+    }, {
+        "name": "Jesse Smick",
+        "email": "janka102@gmail.com"
+    }],
+
+    "engines": {
+        "node": "0.10.28"
+    },
+
+    "scripts": {
+        "start": "node server.js"
+    },
+
+    "dependencies": {
+        "express": "^4.4.3",
+        "bower": "^1.3.5",
+        "gulp": "^3.8.0"
+    }
+}
